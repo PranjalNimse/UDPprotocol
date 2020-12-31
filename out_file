@@ -1,0 +1,6 @@
+The client and the server exchange UDP datagrams that contain the DATA and ACK segments. They
+must provide a command-line interface that allows to transmit one binary file and support the following
+parameters :
+
+sender <destination_DNS_name> <destination_port_number> <window_size> <input_file>
+receiver <listening_port_number> <window_size> <output_file>
